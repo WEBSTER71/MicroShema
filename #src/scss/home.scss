@@ -1,0 +1,241 @@
+.visual-block {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	&__content {
+		position: absolute;
+		top: 0;
+		z-index: -10;
+		&-1 {
+			top: 200px;
+			left: -25px;
+		}
+		&-2 {
+			top: 550px;
+			right: 0;
+		}
+	}
+	&__shadow {
+		position: absolute;
+		&-1 {
+			top: -400px;
+			left: -200px;
+			width: 1606px;
+			height: 1606px;
+			background: rgba(0, 233, 79, 0.3);
+			filter: blur(200px);
+		}
+	}
+	&__plug {
+		position: absolute;
+		left: -100px;
+		z-index: -10;
+		width: 2176px;
+		height: 1142px;
+		top: 1075px;
+		background: #181818;
+		transform: rotate(-7deg);
+	}
+	&__bg {
+		position: absolute;
+		z-index: -10;
+		width: 1920px;
+		height: 3091px;
+		left: 0px;
+		top: 1500px;
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.640151) 18.54%, rgba(0, 0, 0, 0.79) 51.35%, rgba(0, 0, 0, 0.652778) 77.92%, rgba(0, 0, 0, 0) 100%);
+	}
+	&__block-line {
+		position: absolute;
+		z-index: -11;
+		width: 2800.44px;
+		height: 2167.69px;
+		left: 0px;
+		top: 2650px;
+	}
+}
+.box-title {
+	margin-top: 250px;
+	&__title {
+		font-family: 'Unbounded';
+		font-weight: 700;
+		font-size: 90px;
+		line-height: 112px;
+		padding: 0px 30px;
+		text-align: center;
+	}
+}
+.about {
+	margin-top: 800px;
+	&__title {
+		font-family: 'Unbounded';
+		font-weight: 700;
+		font-size: 50px;
+		line-height: 62px;
+		color: #00E94F;
+	}
+	&__row {
+		display: flex;
+		column-gap: 75px;
+		margin-top: 20px;
+	}
+	&__text {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		p {
+			text-indent: 30px;
+		}
+	}
+	&__bg {
+		position: relative;
+		& img {
+			border-radius: 13px;
+		}
+	}
+	&__shadow {
+		position: absolute;
+		top: 0;
+		width: 527px;
+		height: 288px;
+		z-index: -1;
+		background: rgba(0, 233, 79, 0.3);
+		filter: blur(150px);
+	}
+}
+.technology {
+	margin-top: 200px;
+	&__container {
+	}
+	&__main-title {
+		font-family: 'Unbounded';
+		font-weight: 700;
+		font-size: 90px;
+		line-height: 112px;
+		margin-bottom: 90px;
+		text-align: center;
+	}
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__column {
+		display: flex;
+		flex-direction: column;
+	}
+	&__title {
+		font-family: 'Unbounded';
+		font-weight: 700;
+		font-size: 116px;
+		line-height: 144px;
+		background: linear-gradient(135deg, rgba(255, 255, 255, 1) 20%, rgba(0, 233, 79, 0.3) 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		-text-fill-color: transparent;
+	}
+	&__text {
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 37px;
+		margin: 15px 0px 60px;
+	}
+	&__button {
+	}
+	&__bg {
+	}
+	&__content {
+		display: flex;
+		flex-direction: column;
+		gap: 35px;
+	}
+	&__items {
+		display: flex;
+		gap: 35px;
+	}
+	&__card {
+		position: relative;
+		z-index: -10;
+		display: flex;
+		flex-direction: column;
+		background: #000000;
+		border-radius: 26px;
+		overflow: hidden;
+	}
+	&__text-box {
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+		margin-top: 35px;
+		margin-left: 35px;
+		margin-right: 50px;
+	}
+	&__sub-title {
+		font-family: 'Unbounded';
+		font-weight: 700;
+		font-size: 80px;
+		line-height: 99px;
+		background: linear-gradient(135deg, rgba(255, 255, 255, 1) -10%, rgba(0, 233, 79, 0.5) 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		-text-fill-color: transparent;
+	}
+	&__sub-text {
+		font-weight: 700;
+		font-size: 25px;
+		line-height: 30px;
+	}
+	&__image {
+		position: relative;
+		align-self: end;
+		//position: relative;
+		//&-2 {
+		//	bottom: 50px;
+		//}
+		&-3 {
+		//	bottom: 60px;
+			& img {
+				border-radius: 26px;
+			}
+		}
+		//&-4 {
+		//	bottom: 60px;
+		//}
+		//&-5 {
+		//	bottom: 314px;
+		//}
+	}
+	&__shadow {
+		position: absolute;
+		top: 0;
+		z-index: -1;
+		left: -50px;
+		width: 855px;
+		height: 412px;
+		background: radial-gradient(48.69% 48.69% at 50% 51.31%, #00E94F 0%, rgba(0, 233, 79, 0) 100%);
+		filter: blur(150px);
+		border-radius: 32px;
+	}
+}
+.projeckt {
+	margin-top: 250px;
+	&__container {
+	}
+	&__title {
+		font-family: 'Unbounded';
+		font-weight: 700;
+		font-size: 90px;
+		line-height: 112px;
+		text-align: center;
+		margin-bottom: 250px;
+	}
+	&__sub-title {
+		font-family: 'Montserrat';
+		font-weight: 600;
+		font-size: 50px;
+		line-height: 61px;
+		text-align: center;
+		color: #5E5E5E;
+	}
+}
