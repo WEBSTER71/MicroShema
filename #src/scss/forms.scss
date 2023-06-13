@@ -20,19 +20,19 @@
 .btn {
 	display: inline-flex;
 	justify-content: center;
-	align-self: start;
-	padding: 30px 75px;
+	align-self: center;
+	padding: 28px 55px;
 	border-radius: 25px;
+	border: 4px solid #00E94F;
 	background: #00E94F;
 	font-weight: 700;
-	font-size: 20px;
-	line-height: 24px;
-	transition: 0.3s;
+	font-size: 30px;
+	line-height: 37px;
+	transition: 0.5s;
+	z-index: 10;
 	&:hover {
-		background: #009033;
-	}
-	&._fw {
-		width: 100%;
+		background: #000;
+		border: 4px solid #00E94F;
 	}
 }
 //</BUTTONS>====================================================================================================
